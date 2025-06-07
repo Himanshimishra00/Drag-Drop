@@ -1,14 +1,16 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Website Builder</title>
     <link rel="stylesheet" href="style.css">
 </head>
+
 <body>
     <div class="builder-container">
-        <!-- Sidebar -->
+
         <div class="sidebar">
             <div class="sidebar-header">
                 <h2>🎨 Website Builder</h2>
@@ -18,27 +20,27 @@
                     <div class="category-title">Elements</div>
                     <div class="draggable-element" draggable="true" data-type="text">
                         <svg class="element-icon" viewBox="0 0 24 24" fill="currentColor">
-                            <path d="M3 17.25V21h3.75L17.81 9.94l-3.75-3.75L3 17.25zM20.71 7.04c.39-.39.39-1.02 0-1.41l-2.34-2.34c-.39-.39-1.02-.39-1.41 0l-1.83 1.83 3.75 3.75 1.83-1.83z"/>
+                            <path
+                                d="M3 17.25V21h3.75L17.81 9.94l-3.75-3.75L3 17.25zM20.71 7.04c.39-.39.39-1.02 0-1.41l-2.34-2.34c-.39-.39-1.02-.39-1.41 0l-1.83 1.83 3.75 3.75 1.83-1.83z" />
                         </svg>
                         <span class="element-name">Text</span>
                     </div>
                     <div class="draggable-element" draggable="true" data-type="button">
                         <svg class="element-icon" viewBox="0 0 24 24" fill="currentColor">
-                            <path d="M3 3h18v4H3V3zm0 14h18v4H3v-4zm0-7h18v4H3v-4z"/>
+                            <path d="M3 3h18v4H3V3zm0 14h18v4H3v-4zm0-7h18v4H3v-4z" />
                         </svg>
                         <span class="element-name">Button</span>
                     </div>
                     <div class="draggable-element" draggable="true" data-type="image">
                         <svg class="element-icon" viewBox="0 0 24 24" fill="currentColor">
-                            <path d="M21 19V5c0-1.1-.9-2-2-2H5c-1.1 0-2 .9-2 2v14c0 1.1.9 2 2 2h14c1.1 0 2-.9 2-2zM8.5 13.5l2.5 3.01L14.5 12l4.5 6H5l3.5-4.5z"/>
+                            <path
+                                d="M21 19V5c0-1.1-.9-2-2-2H5c-1.1 0-2 .9-2 2v14c0 1.1.9 2 2 2h14c1.1 0 2-.9 2-2zM8.5 13.5l2.5 3.01L14.5 12l4.5 6H5l3.5-4.5z" />
                         </svg>
                         <span class="element-name">Image</span>
                     </div>
                 </div>
             </div>
         </div>
-
-        <!-- Canvas Area -->
         <div class="canvas-area">
             <div class="canvas-header">
                 <div class="canvas-title">Canvas</div>
@@ -49,14 +51,13 @@
             <div class="canvas" id="canvas">
                 <div class="canvas-empty">
                     <svg class="canvas-empty-icon" viewBox="0 0 24 24" fill="currentColor">
-                        <path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/>
+                        <path
+                            d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z" />
                     </svg>
                     <div>Drag elements here to start building</div>
                 </div>
             </div>
         </div>
-
-        <!-- Properties Panel -->
         <div class="properties-panel" id="properties-panel">
             <div class="properties-header">
                 <h3>Properties</h3>
@@ -71,4 +72,5 @@
 
     <script src="index.js"></script>
 </body>
+
 </html>
